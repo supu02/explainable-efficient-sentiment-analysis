@@ -1,0 +1,132 @@
+%% iclr2025_conference.sty
+%% Faithful approximation of the ICLR 2025 conference style.
+%% Based on the official ICLR Master-Template (github.com/ICLR/Master-Template).
+%%
+%% Usage in preamble:
+%%   \usepackage{iclr2025_conference,times}
+%%   \iclrfinalcopy   % uncomment for the camera-ready / submitted version
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{iclr2025_conference}
+
+% -------------------------------------------------------
+%  Dependencies
+% -------------------------------------------------------
+\RequirePackage{fancyhdr}
+\RequirePackage{color}
+\RequirePackage{ifthen}
+\RequirePackage{natbib}
+
+% -------------------------------------------------------
+%  Page geometry  (matches the official ICLR layout)
+% -------------------------------------------------------
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.0in}
+\setlength{\oddsidemargin}{0.0in}
+\setlength{\evensidemargin}{0.0in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\headheight}{14pt}
+\setlength{\headsep}{10pt}
+\setlength{\footskip}{0.4in}
+
+% -------------------------------------------------------
+%  Final-copy toggle
+% -------------------------------------------------------
+\newif\if@iclrfinal
+\@iclrfinalfalse
+\newcommand{\iclrfinalcopy}{\global\@iclrfinaltrue}
+
+% -------------------------------------------------------
+%  Running head
+% -------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{%
+  \small\itshape
+  \if@iclrfinal
+    Explainable AI Course Project, 2025--26 --- Portfolio Edition
+  \else
+    Under review as a conference paper at ICLR 2025
+  \fi
+}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% -------------------------------------------------------
+%  Title / author block
+% -------------------------------------------------------
+\renewcommand{\maketitle}{%
+  \par
+  \begingroup
+    \renewcommand{\thefootnote}{\fnsymbol{footnote}}%
+    \def\@makefnmark{\hbox{$^{\@thefnmark}$}}%
+    \long\def\@makefntext##1{%
+      \parindent 1em\noindent
+      \hbox to 1.8em{\hss $^{\@thefnmark}$}##1}%
+    \@maketitle
+    \thispagestyle{fancy}%
+    \@thanks
+  \endgroup
+  \setcounter{footnote}{0}%
+}
+
+\def\@maketitle{%
+  \vbox{%
+    \hsize\textwidth
+    \linewidth\hsize
+    \vskip 0.06in
+    \centering
+    {\LARGE\bf \@title \par}
+    \vskip 0.08in
+    {\large \@author \par}
+    \vskip 0.06in
+  }
+}
+
+% -------------------------------------------------------
+%  Abstract environment (indented, slightly smaller font)
+% -------------------------------------------------------
+\renewenvironment{abstract}{%
+  \vspace{2pt}%
+  \begin{center}%
+    {\bf Abstract}%
+  \end{center}%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{0.35in}%
+    \setlength{\rightmargin}{0.35in}%
+    \setlength{\topsep}{0pt}%
+    \setlength{\partopsep}{0pt}%
+    \setlength{\parsep}{0pt}%
+    \setlength{\itemsep}{0pt}%
+  }\item[]\small
+}{%
+  \end{list}%
+  \vspace{2pt}%
+}
+
+% -------------------------------------------------------
+%  Section heading spacing (tighter than article defaults)
+% -------------------------------------------------------
+\RequirePackage{titlesec}
+\titlespacing*{\section}{0pt}{10pt plus 2pt minus 2pt}{5pt plus 1pt}
+\titlespacing*{\subsection}{0pt}{8pt plus 2pt minus 2pt}{4pt plus 1pt}
+
+% -------------------------------------------------------
+%  Paragraph and float spacing
+% -------------------------------------------------------
+\parskip   = 0pt
+\parindent = 1em
+
+\setlength{\floatsep}{6pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{8pt plus 2pt minus 4pt}
+\setlength{\intextsep}{6pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{4pt}
+\setlength{\belowcaptionskip}{0pt}
+
+% -------------------------------------------------------
+%  Bibliography style
+% -------------------------------------------------------
+\bibpunct{(}{)}{;}{a}{,}{,}

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please credit both authors when referring to this academic project."
+title: "Explaining Efficiency-Accuracy Trade-offs in Sentiment Classification Models"
+type: software
+authors:
+  - family-names: "Berrada Rekhami"
+    given-names: "Simo"
+  - family-names: "Malla"
+    given-names: "Supriya"
+abstract: "An academic comparison of TF-IDF with Logistic Regression, INT8 TinyBERT, and a probability-gated cascade, with feature-weight and LIME explanations on a small cleaned IMDb evaluation sample."
+keywords:
+  - sentiment analysis
+  - explainable AI
+  - natural language processing
+  - model efficiency

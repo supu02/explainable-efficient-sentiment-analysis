@@ -1,0 +1,33 @@
+{
+  "description": "Retained model weights/tokenizer and matching local architecture configuration.",
+  "files": {
+    "models/architecture/config.json": {
+      "size_bytes": 634,
+      "sha256": "6bd2b9e51ce4e9568fd45ff8e0b24654f4569f8e7b0ac70622f4d35c0ba70b72"
+    },
+    "models/tfidf_logreg.joblib": {
+      "size_bytes": 929012,
+      "sha256": "674585061fe98be222e263fb7c898e0925d20f56ba5e208f6ba5bf8bfb9b938e"
+    },
+    "models/tinybert_quantized.pt": {
+      "size_bytes": 43497215,
+      "sha256": "a00ca5b75fa91e8c7749bab957732666956793f2993ad138ef2a5229ad93ac18"
+    },
+    "models/tokenizer/special_tokens_map.json": {
+      "size_bytes": 125,
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+    },
+    "models/tokenizer/tokenizer.json": {
+      "size_bytes": 711396,
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+    },
+    "models/tokenizer/tokenizer_config.json": {
+      "size_bytes": 1272,
+      "sha256": "c2bd0d539850fd903986c1c62fa83a1db3c9a3c016cf32768080b35ee8545b71"
+    },
+    "models/tokenizer/vocab.txt": {
+      "size_bytes": 231508,
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    }
+  }
+}

@@ -1,0 +1,237 @@
+[
+  {
+    "text": "Ah, the infamous \"Guinea Pig\" series...I honestly have to say that I've been disappointed as a whole by this entire series (\"He Never Dies\",\"Mermaid in a Manhole\", and \"Flower of Flesh and Blood\" being the exceptions...and even those aren't great by any means...), but \"Devil's Experiment\" just plain blows. There is nothing realistic-looking going on here, other than the climactic (or perhaps anti-climactic, depending on how you view it) eyeball piercing scene. The victim appears to not really care what is going on and barely whines or whimpers while being subjected to \"hideous\" (more often sometimes \"hilarious\") tortures. \"Flower of Flesh and Blood\" is a more violent and gory depiction of fake \"snuff\" material, but that film also falls flat on the realism level. I applaud the Japanese for pushing the boundaries, and they've really come a long way over the past 2 decades to wear the crown in \"extreme\" film-making, but \"Devil's Experiment\" just doesn't hold up. Worth a look if you are a die-hard, if for no other reason than to see what the fuss is about, but I can only give this film an extremely generous 3/10 and that's only for the needle-through-the-eye scene...",
+    "prediction": 0,
+    "prediction_label": "negative",
+    "lime_features": [
+      {
+        "word": "just",
+        "weight": -0.0854
+      },
+      {
+        "word": "disappointed",
+        "weight": -0.0725
+      },
+      {
+        "word": "doesn",
+        "weight": -0.0649
+      },
+      {
+        "word": "great",
+        "weight": 0.0594
+      },
+      {
+        "word": "realistic",
+        "weight": 0.0503
+      },
+      {
+        "word": "barely",
+        "weight": -0.0473
+      },
+      {
+        "word": "flat",
+        "weight": -0.0454
+      },
+      {
+        "word": "hilarious",
+        "weight": 0.0421
+      },
+      {
+        "word": "care",
+        "weight": -0.0386
+      },
+      {
+        "word": "series",
+        "weight": 0.0291
+      }
+    ]
+  },
+  {
+    "text": "This is the most confronting documentary I have ever seen. It was a simple and breathtaking view of a beautiful idea. Based on photographs of the hidden industrial landscapes centred around the modern industrial growth of China, Edward Burtynsky brings to life confronting issues that we so easily chose to ignore.<br /><br />Taking no political sides, this movie is a neutral moving picture of realities that our western societies chooses not to educate us about - the by-products of economical growth, the externalities paid by citizens of the lesser-developed communities, the source of our comforts and the wastes of our consumer lifestyles.<br /><br />Amazing, heart-breaking, impossible to ignore. This is a challenging journey but one worth taking - please stop staying ignorant and at least see these photographs of truth without feeling any pressure to take a standing to these issues. 10/10 definitely!",
+    "prediction": 1,
+    "prediction_label": "positive",
+    "lime_features": [
+      {
+        "word": "10",
+        "weight": 0.0473
+      },
+      {
+        "word": "Amazing",
+        "weight": 0.0452
+      },
+      {
+        "word": "heart",
+        "weight": 0.0263
+      },
+      {
+        "word": "beautiful",
+        "weight": 0.0251
+      },
+      {
+        "word": "definitely",
+        "weight": 0.0233
+      },
+      {
+        "word": "idea",
+        "weight": -0.0225
+      },
+      {
+        "word": "seen",
+        "weight": 0.0196
+      },
+      {
+        "word": "journey",
+        "weight": 0.0183
+      },
+      {
+        "word": "documentary",
+        "weight": 0.0158
+      },
+      {
+        "word": "life",
+        "weight": 0.0137
+      }
+    ]
+  },
+  {
+    "text": "In 1942 a film TALES OF MANHATTAN told a set of stories that were basically unrelated, but tied together with a suit of men's evening wear. Each story began when the \"tails\" were passed from one owner (Charles Boyer, for instance) to another (Ceasar Romero). WINCHESTER '73, a superior film, and a great western, has a similar plot twist. Initially it is about how Jimmy Stewart is seeking Stephen (Horace) MacMahon for some deadly grudge. But in the course of the film the two men get into a shooting contest, the prize (given by Marshall Wyatt Earp - Will Geer) being one of the new Winchester rifles. Stewart barely beats out MacMahon, but the gun is stolen from Stewart, and the chase is on. <br /><br />The gun passes from hand to hand, including John McIntyre (as an arrogant trader who fatally does not know when to stop being arrogant), to Rock Hudson (in a surprising role - and a brief one at that), to Charles Drake, to Dan Duryea (as the delightfully deadly and psychotic Waco Johnny Dean), to MacMahon. Eventually it does return to Stewart.<br /><br />The film is expertly directed by Anthony Mann. Every character has a wide variety of experiences. Duryea gets the rifle literally over Drake's dead body (Duryea forces the issue). But he loses it to MacMahon, who is faster on the draw - not that Duryea is stupid enough to fight for the rifle. As he and Shelley Winter look at MacMahon in the distance, Winter (who watched Duryea kill her former boy friend Drake) drops her distaste for the gunman momentarily to ask why he put up with MacMahon's bullying for the gun. Philosophically, Duryea explains he can wait. Some opportunity will come up later on (i.e., when he can safely kill MacMahon and get back the rifle). <br /><br />The characters are remarkably human. Winters first appears as the future bride of Drake, but she sees a really big negative side to him - an unforgivable side. Drake is aware of this lapse, and it helps lead to his destruction. Other characters have realistic touches, such as J.C. Flippen as an army sergeant who fights an Indian attack with Steward and Steward's friend Millard Mitchell. Oh yes, and with Flippen's fellow soldier - Tony Curtis. Flippen makes one believe this soldier has been on a hundred battlefields before, since 1861 probably. Steward had showed emotions in other films. In IT'S A WONDERFUL LIFE he showed a degree of anger at times, and also a near nervous breakdown when he thinks everything is wrong with his life. But here he showed a demonic anger - at the expense of a surprised Duryea (who normally would show such anger himself).<br /><br />The parts of this film fit very neatly together, under Mann's competent hands. This is one western that never wears out, as the audience watches the travels of a Winchester rifle.",
+    "prediction": 1,
+    "prediction_label": "positive",
+    "lime_features": [
+      {
+        "word": "great",
+        "weight": 0.0517
+      },
+      {
+        "word": "WONDERFUL",
+        "weight": 0.0417
+      },
+      {
+        "word": "Stewart",
+        "weight": 0.0362
+      },
+      {
+        "word": "helps",
+        "weight": 0.0308
+      },
+      {
+        "word": "realistic",
+        "weight": 0.0298
+      },
+      {
+        "word": "surprised",
+        "weight": 0.0287
+      },
+      {
+        "word": "showed",
+        "weight": 0.0284
+      },
+      {
+        "word": "Drake",
+        "weight": -0.0212
+      },
+      {
+        "word": "stupid",
+        "weight": -0.0207
+      },
+      {
+        "word": "basically",
+        "weight": -0.0158
+      }
+    ]
+  },
+  {
+    "text": "... This isn't the first time Stanley blurred the distinction between genres to such great effect, either. In Dr. Strangelove you had a comedy about a horrific situation, and here the basis is a terrifying scenario which actually yields some very funny moments. Slow-burning madness and attempting to kill one's family isn't hilarious of course, but the dialogue is very knowing (\"five months of peace is just what I want... \") and there is a terrific drinking scene which would be riotous if you included just one type of spirit, but is spine-chilling when you factor in the other.<br /><br />I disagree with those who say that the hotel has a negligible effect on Jack Torrance in the filmed version. The cues Nicholson provides the audience as an actor merely hint at the potential for madness, which is only reinforced when we learn that the head of the family has struggled with alcoholism and is emotionally distant from his wife and son. The environment that he is in, however, then absorbs those personality defects and unleashes them upon his consciousness. In much the same way as buildings are sometimes thought to soak up events that happen there, the hotel feeds on the frailties of a troubled but sane man, and uses his weaknesses against him to eventually take him beyond the point of no return. He may have dormant flaws in his personality before he arrives, but to me the Overlook itself is the trigger that sets them off.<br /><br />Kubrick's cold and detached approach to directing works splendidly for a chilly horror film, and the unpredictable force of nature that is Jack Nicholson teeters all the time between making you giggle and scaring the wits out of you. When he explodes, you won't be sure how far he can go. Together they made a great team and with a blend of their talents gave us a classic. If you want a great viewing experience, then this is an example that well and truly shines...",
+    "prediction": 1,
+    "prediction_label": "positive",
+    "lime_features": [
+      {
+        "word": "great",
+        "weight": 0.1029
+      },
+      {
+        "word": "hilarious",
+        "weight": 0.0269
+      },
+      {
+        "word": "just",
+        "weight": -0.0237
+      },
+      {
+        "word": "flaws",
+        "weight": 0.0222
+      },
+      {
+        "word": "classic",
+        "weight": 0.0183
+      },
+      {
+        "word": "terrific",
+        "weight": 0.0173
+      },
+      {
+        "word": "family",
+        "weight": 0.0169
+      },
+      {
+        "word": "works",
+        "weight": 0.0165
+      },
+      {
+        "word": "want",
+        "weight": -0.009
+      },
+      {
+        "word": "experience",
+        "weight": 0.0041
+      }
+    ]
+  },
+  {
+    "text": "I like a lot of the actors/actresses involved in this project so being insulted by the movie felt even worse than if they used a unknowns .The main problem was this movie was clearly just a concept created to appeal to baby boomers .In 20 or 30 years Nbc will probably do a movie just like this about the early 90's . I can see it now a black family where the kids are involved with the la riot's and the white family has the kids rebel and listen to grunge rock music .The soundtrack will feature bands like Nirvana , N.W.A , Public Enemy , Soundgarden etc .The movie like this will be just as cheesy as The 60's and I gurantee you NBC will do it .See the biggest problem with period pieces when done buy networks is that when you are living in a certain time period you aren't thinking i am living in the 60's or whatever decade is trendy retro at the time .Next time someone does something like this they should put more weight into there project",
+    "prediction": 0,
+    "prediction_label": "negative",
+    "lime_features": [
+      {
+        "word": "problem",
+        "weight": -0.1133
+      },
+      {
+        "word": "worse",
+        "weight": -0.1001
+      },
+      {
+        "word": "movie",
+        "weight": -0.0866
+      },
+      {
+        "word": "just",
+        "weight": -0.0754
+      },
+      {
+        "word": "family",
+        "weight": 0.0625
+      },
+      {
+        "word": "years",
+        "weight": 0.0542
+      },
+      {
+        "word": "project",
+        "weight": -0.053
+      },
+      {
+        "word": "time",
+        "weight": 0.0431
+      },
+      {
+        "word": "living",
+        "weight": 0.0375
+      },
+      {
+        "word": "buy",
+        "weight": 0.031
+      }
+    ]
+  }
+]

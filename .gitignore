@@ -1,0 +1,34 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+
+# Trained artifacts are supplied separately
+*.pt
+*.bin
+*.safetensors
+*.pkl
+*.joblib
+*.onnx
+models/tokenizer/
+
+# Original training data and new runs
+data/train.csv
+results/reruns/
+models/checkpoint-*/
+models/runs/
+
+# Build byproducts
+*.zip
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+docs/report-source/report.pdf

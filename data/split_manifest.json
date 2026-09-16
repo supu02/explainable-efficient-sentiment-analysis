@@ -1,0 +1,17 @@
+{
+  "method": "Exact raw-text exclusion against train.csv, then deduplicate remaining review texts.",
+  "training_rows": 30000,
+  "candidate_rows": 100,
+  "rows_removed_for_train_overlap": 61,
+  "remaining_duplicate_rows_removed": 0,
+  "evaluation_rows": 39,
+  "evaluation_label_counts": {
+    "negative": 20,
+    "positive": 19
+  },
+  "sha256": {
+    "data/train.csv": "4a782d598b2310d491807f96072d0dbdda7f816bb74828b2f7652e4a2805fc56",
+    "data/sample_test.csv": "a97904c3fd6c72663eff814d53de0ed4eacaeb58f691cddd455cf8f90063d4a9",
+    "data/eval_clean.csv": "0f148ecabb81c6e2ecda3ca62d298bfb2867b318d10eccd8773e2a1fb2b95a2d"
+  }
+}
