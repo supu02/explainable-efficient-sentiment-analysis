@@ -18,4 +18,4 @@ New inference timings differed from the April reference, as expected for wall-cl
 
 The existing environment emitted PyTorch deprecation/backend warnings and NumPy/scikit-learn numerical warnings during LIME. The commands completed and the exported explanation weights were checked for finite values. Those checks do not establish numerical stability or explanation faithfulness across repeated runs.
 
-Training was not rerun. A clean dependency installation on another operating system and a hosted GitHub Actions run have not been performed. The workflow file is included for future pushes. This portfolio has not been published to GitHub as part of local packaging.
+Training was not rerun. A clean dependency installation on another operating system and a hosted GitHub Actions run have not been performed. The workflow file is included for future pushes. These checks were performed during local packaging before GitHub publication. They are historical verification notes, not evidence that the current GitHub checkout has been tested again.
