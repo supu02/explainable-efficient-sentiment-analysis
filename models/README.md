@@ -1,6 +1,6 @@
 # Model artifacts
 
-The source ZIP contains code and a small architecture configuration. Trained weights and tokenizer files are in the separate **`xai-sentiment-models.zip`** supplied with this portfolio. There is no configured public download URL yet.
+This GitHub repository contains the source code and a small architecture configuration, but **not the trained model weights or tokenizer files**. The original project handoff included a separate **`xai-sentiment-models.zip`** archive. There is currently no configured public download URL for that archive.
 
 Extract the model ZIP into the repository root. It restores:
 
